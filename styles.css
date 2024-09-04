@@ -1,0 +1,134 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  height: 25vh; /* 20% of the viewport height */
+  background-image: url('assets/header-background.webp');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: relative;
+}
+
+nav {
+  display: flex;
+  justify-content: center;
+  padding: 10px 0;
+  width: 100%;
+}
+
+.nav-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  max-width: 1200px;
+  padding: 0 20px;
+  box-sizing: border-box;
+}
+
+.nav-item a {
+  color: white;
+  font-size: 28px;
+  text-decoration: none;
+
+}
+
+.nav-item a:hover {
+  color: #ccc;
+  cursor: pointer;
+}
+
+.header-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  text-align: center;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+
+.logo-container img {
+  height: 80px;
+  margin-bottom: 10px;
+}
+
+.header-item h1 {
+  margin: 0;
+  color: white;
+  font-size: 1.5em;
+}
+
+/* Button Section Styles */
+.button-section {
+  padding: 20px;
+  border-bottom: 1px solid #dcdcdc; /* Light grey bottom border */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Light grey shadow */
+}
+
+.button-container {
+  display: flex;
+  justify-content: space-between; /* Space between heart button and group of other buttons */
+  align-items: center;
+  max-width: 1200px; /* Optional: Limits the max width of the button container */
+  margin: 0 auto; /* Centers the button container */
+}
+
+.left-buttons {
+  display: flex;
+  align-items: center; /* Aligns buttons vertically */
+}
+
+.right-buttons {
+  display: flex;
+  align-items: center; /* Aligns buttons vertically */
+}
+
+.btn {
+  border: 1px solid black;
+  height: 2em;
+  background-color: white;
+  font-size: 16px; /* Adjust font size for icons */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 2.5em; /* Width to make buttons square-like */
+  border-radius: 4px; /* Optional: Rounds the corners */
+  cursor: pointer; /* Changes cursor to pointer on hover */
+  margin: 0.5em; /* Space between buttons */
+}
+
+
+.btn {
+  border: 1px solid black;
+  height: 2em;
+  background-color: white;
+  font-size: 16px; /* Adjust font size for icons */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 2.5em; /* Width to make buttons square-like */
+  border-radius: 4px; /* Optional: Rounds the corners */
+  cursor: pointer; /* Changes cursor to pointer on hover */
+}
+
+
+.btn i {
+  color: black; /* Icon color */
+}
+
+.btn:hover {
+  background-color: #f0f0f0; /* Light background on hover */
+}

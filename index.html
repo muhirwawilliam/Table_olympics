@@ -3,96 +3,49 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Medal Table</title>
-  <link rel="stylesheet" type="text/css" href="style.css">
+  <title>Paralympic Medal Table</title>
+  <link rel="stylesheet" href="styles.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/flag-icons/3.4.6/css/flag-icons.min.css">
 </head>
+<html>
+
+</html>
 <body>
-  <header class="header-title">
-    <h1>MEDAL TABLE</h1>
+  <header>
+    <nav>
+      <div class="nav-container">
+        <div class="nav-item">
+          <a href="index.html"><i class="fa-solid fa-bars"></i></a>
+        </div>
+        <div class="nav-item">
+          <a href="index.html"><i class="fas fa-search"></i></a>
+        </div>
+      </div>
+    </nav>
+
+    <div class="header-content">
+      <div class="logo-container">
+        <a href="index.html"><img src="assets/olympics_logo.png" alt="Olympics Logo"></a>
+      </div>
+      <div class="header-item">
+        <h1>Paralympic Medal Table</h1>
+      </div>
+    </div>
   </header>
-  <div class="container-body">
-    <div class="button-adjust">
-      <button id="heart-button"><i class="fas fa-heart"></i></button>
-      <button><i class="fas fa-plus"></i></button>
-      <button><i class="fas fa-sort"></i></button>
-      <button><i class="fas fa-bars"></i></button>
+
+  <!-- Button Section -->
+  <section class="button-section">
+    <div class="button-container">
+      <div class="left-buttons">
+        <button id="heart-button" class="btn"><i class="fas fa-heart"></i></button>
+      </div>
+      <div class="right-buttons">
+        <button id="plus-button" class="btn"><i class="fas fa-plus"></i></button>
+        <button id="filter-button" class="btn"><i class="fas fa-filter"></i></button>
+        <button id="another-filter-button" class="btn"><i class="fas fa-sliders-h"></i></button>
+      </div>
     </div>
-
-    <!-- list of medals align horizontally -->
-
-    <table class="table">
-      <thead>
-        <tr class="header-1">
-          <th colspan="8">Timing and scoring provided by OMEGA, results powered by Atos.</th>
-
-        </tr>
-      </thead>
-      <tbody>
-        <tr class="standing-positions">
-          <th scope="row">1</th>
-          <td><span class="flag-icon flag-icon-cn"></span> CHN</td>
-          <td>1</td>
-          <td>1</td>
-          <td>0</td>
-          <td>2</td>
-          <td><button><i class="fas fa-plus"></i></button></td>
-        </tr>
-        <tr class="standing-positions">
-          <th scope="row">2</th>
-          <td><span class="flag-icon flag-icon-nl"></span> NED</td>
-          <td>1</td>
-          <td>0</td>
-          <td>0</td>
-          <td>1</td>
-          <td><button><i class="fas fa-plus"></i></button></td>
-        </tr>
-        <tr class="standing-positions">
-          <th scope="row">3</th>
-          <td><span class="flag-icon flag-icon-fr"></span> FRA</td>
-          <td>0</td>
-          <td>1</td>
-          <td>0</td>
-          <td>1</td>
-          <td><button><i class="fas fa-plus"></i></button></td>
-        </tr>
-        <tr class="standing-positions">
-          <th scope="row">4</th>
-          <td><span class="flag-icon flag-icon-ca"></span> CAN</td>
-          <td>0</td>
-          <td>0</td>
-          <td>1</td>
-          <td>1</td>
-          <td><button><i class="fas fa-plus"></i></button></td>
-        </tr>
-        <tr class="standing-positions">
-          <th scope="row">5</th>
-          <td><span class="flag-icon flag-icon-es"></span> ESP</td>
-          <td>0</td>
-          <td>0</td>
-          <td>1</td>
-          <td>1</td>
-          <td><button><i class="fas fa-plus"></i></button></td>
-        </tr>
-      </tbody>
-    </table>
-
-
-    <p>Does not include medals won by AIN.</p>
-
-
-  </div>
-  <footer class="footer">
-    <div>
-      <i class="fas fa-home"></i>
-      <i class="fas fa-calendar"></i>
-      <i class="fas fa-medal"></i>
-      <i class="fas fa-map-marker-alt"></i>
-      <i class="fas fa-laptop"></i>
-      <i class="fas fa-bars"></i>
-    </div>
-  </footer>
+  </section>
 
 </body>
 </html>
