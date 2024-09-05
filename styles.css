@@ -1,8 +1,14 @@
 body {
+  font-family: Arial, sans-serif;
   margin: 0;
   padding: 0;
-  font-family: Arial, Helvetica, sans-serif;
 }
+
+h1 {
+  text-align: center;
+  margin-top: 35px;
+}
+
 
 header {
   display: flex;
@@ -27,17 +33,19 @@ nav {
 .nav-container {
   display: flex;
   justify-content: space-between;
+  height: 18vh;
   align-items: center;
   width: 100%;
-  max-width: 1200px;
+  max-width: 1700px;
   padding: 0 20px;
   box-sizing: border-box;
 }
 
 .nav-item a {
-  color: white;
-  font-size: 28px;
+  color: rgb(244, 244, 244);
+  font-size: 30px;
   text-decoration: none;
+  cursor: pointer;
 
 }
 
@@ -82,8 +90,8 @@ nav {
   display: flex;
   justify-content: space-between; /* Space between heart button and group of other buttons */
   align-items: center;
-  max-width: 1200px; /* Optional: Limits the max width of the button container */
-  margin: 0 auto; /* Centers the button container */
+  max-width: 16000px; /* Optional: Limits the max width of the button container */
+  margin: 20px auto; /* Centers the button container */
 }
 
 .left-buttons {
@@ -98,31 +106,19 @@ nav {
 
 .btn {
   border: 1px solid black;
-  height: 2em;
+  height: 4em;
   background-color: white;
   font-size: 16px; /* Adjust font size for icons */
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 2.5em; /* Width to make buttons square-like */
+  width: 4.5em; /* Width to make buttons square-like */
   border-radius: 4px; /* Optional: Rounds the corners */
   cursor: pointer; /* Changes cursor to pointer on hover */
   margin: 0.5em; /* Space between buttons */
 }
 
 
-.btn {
-  border: 1px solid black;
-  height: 2em;
-  background-color: white;
-  font-size: 16px; /* Adjust font size for icons */
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  width: 2.5em; /* Width to make buttons square-like */
-  border-radius: 4px; /* Optional: Rounds the corners */
-  cursor: pointer; /* Changes cursor to pointer on hover */
-}
 
 
 .btn i {
@@ -136,60 +132,39 @@ nav {
 
 /* Main Section Styles */
 
-body {
-  font-family: Arial, sans-serif;
-}
 
-h1 {
-  text-align: center;
-  margin-top: 20px;
-}
-
-.sports-container {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  gap: 20px;
-  padding: 20px;
-}
 
 .sport-block {
-  width: 80vh;
-  border: 1px solid #ddd;
-  border-radius: 8px;
-  overflow: hidden;
-  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  margin: 0px 5px 20px 5px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
 }
 
 .sport-header {
-  background-color: #f2f2f2;
-  padding: 10px;
   display: flex;
   justify-content: space-between;
-  align-items: center;
   cursor: pointer;
+  background-color: #f9f9f9;
+  padding: 10px;
 }
 
+.sport-details {
+  margin-top: 10px;
+  padding-left: 10px;
+}
+
+.sport-details ul {
+  list-style: none; /* Remove default bullets */
+  padding-left: 20px; /* Optional: Add some padding to align */
+}
+
+
+
 .sport-name {
-  font-size: 18px;
   font-weight: bold;
 }
 
 .toggle-icon {
-  font-size: 20px;
-}
-
-.sport-details {
-  display: none;
-  padding: 10px;
-  background-color: #fff;
-}
-
-.sport-details ul {
-  list-style-type: none;
-  padding-left: 0;
-}
-
-.sport-details li {
-  margin: 5px 0;
+  font-size: 24px;
 }

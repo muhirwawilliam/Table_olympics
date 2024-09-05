@@ -1,0 +1,153 @@
+{
+  "sports": [
+    {
+      "name": "Para Taekwondo",
+      "countries": [
+        {
+          "name": "Great Britain",
+          "gold": 2,
+          "silver": 0,
+          "bronze": 0,
+          "total": 2
+        },
+        {
+          "name": "Türkiye",
+          "gold": 1,
+          "silver": 3,
+          "bronze": 1,
+          "total": 5
+        },
+        {
+          "name": "Uzbekistan",
+          "gold": 1,
+          "silver": 2,
+          "bronze": 0,
+          "total": 3
+        }
+      ]
+    },
+    {
+      "name": "Wheelchair Basketball",
+      "countries": [
+        {
+          "name": "Canada",
+          "gold": 2,
+          "silver": 1,
+          "bronze": 0,
+          "total": 3
+        },
+        {
+          "name": "Germany",
+          "gold": 1,
+          "silver": 3,
+          "bronze": 2,
+          "total": 6
+        }
+      ]
+    },
+    {
+      "name": "Para Athletics",
+      "countries": [
+        {
+          "name": "China",
+          "gold": 16,
+          "silver": 16,
+          "bronze": 10,
+          "total": 42
+        },
+        {
+          "name": "United States",
+          "gold": 8,
+          "silver": 10,
+          "bronze": 8,
+          "total": 26
+        },
+        {
+          "name": "Brazil",
+          "gold": 8,
+          "silver": 8,
+          "bronze": 11,
+          "total": 27
+        }
+      ]
+    },
+    {
+      "name": "Para Swimming",
+      "countries": [
+        {
+          "name": "Great Britain",
+          "gold": 14,
+          "silver": 7,
+          "bronze": 2,
+          "total": 23
+        },
+        {
+          "name": "China",
+          "gold": 13,
+          "silver": 13,
+          "bronze": 5,
+          "total": 31
+        },
+        {
+          "name": "Italy",
+          "gold": 11,
+          "silver": 4,
+          "bronze": 13,
+          "total": 28
+        }
+      ]
+    },
+    {
+      "name": "Para Table Tennis",
+      "countries": [
+        {
+          "name": "China",
+          "gold": 8,
+          "silver": 4,
+          "bronze": 3,
+          "total": 15
+        },
+        {
+          "name": "Poland",
+          "gold": 2,
+          "silver": 1,
+          "bronze": 2,
+          "total": 5
+        },
+        {
+          "name": "Australia",
+          "gold": 2,
+          "silver": 0,
+          "bronze": 0,
+          "total": 2
+        }
+      ]
+    },
+    {
+      "name": "Para Rowing",
+      "countries": [
+        {
+          "name": "Great Britain",
+          "gold": 3,
+          "silver": 1,
+          "bronze": 0,
+          "total": 4
+        },
+        {
+          "name": "Australia",
+          "gold": 1,
+          "silver": 0,
+          "bronze": 1,
+          "total": 2
+        },
+        {
+          "name": "Israel",
+          "gold": 1,
+          "silver": 0,
+          "bronze": 1,
+          "total": 2
+        }
+      ]
+    }
+  ]
+}
