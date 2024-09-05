@@ -53,7 +53,4 @@ document.addEventListener('DOMContentLoaded', function() {
         sportsContainer.appendChild(sportBlock);
       });
     })
-    .catch(error => {
-      console.error('Error fetching the sports data:', error);
-    });
 });
